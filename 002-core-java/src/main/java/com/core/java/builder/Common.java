@@ -20,6 +20,7 @@ public class Common {
 
 	public Company getCompany() {
 
+		//@formatter:off
 		final Company company = Company.builder()
 				.id(1).name("Pale It Solutions Co., Ltd.")
 				.address("Tokyo, Japan.")
@@ -27,6 +28,7 @@ public class Common {
 				.type(CompanyType.FOREIGN)
 				.size(CompanySize.SIZE_100)
 				.build();
+		//@formatter:on
 
 		return company;
 	}
